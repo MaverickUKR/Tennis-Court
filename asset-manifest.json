@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Tennis-Court/static/css/main.27b4b6c8.css",
+    "main.js": "/Tennis-Court/static/js/main.4ad10310.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Tennis-Court/static/js/787.28cb0dcd.chunk.js",
+    "static/media/presentation720.mp4": "/Tennis-Court/static/media/presentation720.4ef1d7b8d544fd31ae2f.mp4",
+    "static/media/court4.jpg": "/Tennis-Court/static/media/court4.1beb1d461c099f64a08e.jpg",
+    "static/media/court5.jpg": "/Tennis-Court/static/media/court5.06cd147eec5b74bcbb94.jpg",
+    "static/media/noage.png": "/Tennis-Court/static/media/noage.651ea415a2639ff1ba47.png",
+    "static/media/court3.jpg": "/Tennis-Court/static/media/court3.8d7dd944549446864d1a.jpg",
+    "static/media/nostress.png": "/Tennis-Court/static/media/nostress.d0ebf289dcfdfe253abd.png",
+    "static/media/court2.jpg": "/Tennis-Court/static/media/court2.c3edfc14f1b85a7041d7.jpg",
+    "static/media/teamplay.png": "/Tennis-Court/static/media/teamplay.2516e0e6c0462300069c.png",
+    "static/media/brain.png": "/Tennis-Court/static/media/brain.48172a32497a7359164d.png",
+    "static/media/muscles.png": "/Tennis-Court/static/media/muscles.31a8fffdda6632ff234c.png",
+    "static/media/court1.jpg": "/Tennis-Court/static/media/court1.00b0777e96c1d0df841d.jpg",
+    "static/media/stamina.png": "/Tennis-Court/static/media/stamina.702a78e167906d95afd8.png",
+    "static/media/heartbeat.png": "/Tennis-Court/static/media/heartbeat.7b28b4a0d342b10549d4.png",
+    "index.html": "/Tennis-Court/index.html",
+    "main.27b4b6c8.css.map": "/Tennis-Court/static/css/main.27b4b6c8.css.map",
+    "main.4ad10310.js.map": "/Tennis-Court/static/js/main.4ad10310.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Tennis-Court/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27b4b6c8.css",
+    "static/js/main.4ad10310.js"
+  ]
+}
