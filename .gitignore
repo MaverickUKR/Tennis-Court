@@ -17,6 +17,14 @@
 .env.development.local
 .env.test.local
 .env.production.local
+GoogleCalendar
+GoogleLocation
+Header
+NavMenu1
+PhotoCarousel
+PhotoGallery
+SectionTitle
+SimpleGallery
 
 npm-debug.log*
 yarn-debug.log*

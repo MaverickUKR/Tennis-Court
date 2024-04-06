@@ -1,0 +1,78 @@
+.astrodivider {
+  margin: 64px 10%;
+  width: 70%;
+  max-width: 100%;
+  position: relative;
+  @media (max-width: 480px) {
+    margin: 32px 15%;
+  }
+}
+
+.astrodividermask {
+  overflow: hidden;
+  height: 20px;
+}
+
+.astrodividermask:after {
+  content: "";
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px / 32px;
+  box-shadow: 5px 0 10px rgb(100, 173, 82);
+}
+
+.astrodivider span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #4fb39c;
+  background: yellow;
+  overflow: hidden;
+  position: absolute;
+  overflow: hidden;
+  height: 3em;
+  width: 3em;
+  top: 0;
+  border-radius: 50%;
+  background-color: #cc0;
+  background: radial-gradient(
+    ellipse at center,
+    #cc0 0%,
+    darken(#cc0, 15) 100%
+  );
+  box-sizing: border-box;
+  transform: translate(-50%, -50%) rotate(30deg);
+  box-shadow: 10px 20px 25px 10px rgba(#000, 0.2);
+  @media (max-width: 768px) {
+    height: 2em;
+    width: 2em;
+  }
+  @media (max-width: 480px) {
+    height: 1.5em;
+    width: 1.5em;
+  }
+}
+
+.astrodivider span::before,
+.astrodivider span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  border: solid 0.3em #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.astrodivider span::before {
+  right: 70%;
+}
+
+.astrodivider span::after {
+  left: 70%;
+}

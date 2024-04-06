@@ -1,0 +1,13 @@
+.gallery__container {
+  width: 90%;
+  margin: 0 auto; // Center the gallery container
+  .swiper-container {
+    // Ensure the swiper-container takes full width of its parent
+    width: 100%;
+    // Add any additional styles here if necessary
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+    margin-right: 0;
+  }
+}

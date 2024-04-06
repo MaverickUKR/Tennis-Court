@@ -1,0 +1,14 @@
+.button {
+  position: fixed;
+  bottom: 100px;
+  right: 90px;
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+  color: gray;
+  cursor: pointer;
+
+  &:hover {
+    color: #6a9e21;
+  }
+}

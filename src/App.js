@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from "./App.css";
+import BackToTopButton from "./Components/BackToTopButton/BackToTopButton";
+import VideoSection from "./Components/VideoSection/VideoSection";
+import Google from "./Components/Google/Google";
+import SectionDivider from "./Components/SectionDivider/SectionDivider";
+import NewGallery from "./Components/NewGallery/NewGallery";
+import NavMenu from "./Components/NavMenu/NavMenu";
+import TennisBenefits from "./Components/TennisBenefits/TennisBenefits";
+import Footer from "./Components/Footer/Footer";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles["App"]}>
+      <NavMenu />
+      <VideoSection />
+      <SectionDivider />
+      <TennisBenefits />
+      <SectionDivider />
+      <Google />
+      <SectionDivider />
+      <NewGallery />
+      <Footer />
+      <BackToTopButton />
     </div>
   );
-}
+};
 
 export default App;
