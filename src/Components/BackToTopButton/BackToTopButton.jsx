@@ -25,7 +25,7 @@ const BackToTopButton = () => {
     <>
       {backToTopButton && (
         <KeyboardDoubleArrowUpIcon
-          sx={{ fontSize: "3rem" }}
+          sx={{ width: "50px", height: "50px" }}
           onClick={scrollUp}
           className={styles.button}
         />

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer.scss";
 
 const Footer = () => {
   return (
@@ -32,13 +32,13 @@ const Footer = () => {
               Галерея
             </a>
           </li>
-          <li className="menu__item">
+          {/* <li className="menu__item">
             <a className="menu__link" href="#Contacts">
               Контакти
             </a>
-          </li>
+          </li> */}
         </ul>
-        <p>&copy; 2024 Volodymyr Mazepa | All Rights Reserved</p>
+        <p>&copy; 2024 Chayka Tennis | All Rights Reserved</p>
       </footer>
     </div>
   );

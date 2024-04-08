@@ -30,7 +30,9 @@
   margin: 10px 0;
   flex-wrap: wrap;
 }
-
+.menu {
+  padding: 0;
+}
 .social-icon__item,
 .menu__item {
   list-style: none;
@@ -56,6 +58,18 @@
   text-decoration: none;
   opacity: 0.75;
   font-weight: 300;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    margin: 0 7.5px;
+  }
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+    margin: 0 5px;
+  }
+  @media (max-width: 320px) {
+    font-size: 0.6rem;
+    margin: 0 5px;
+  }
 }
 
 .menu__link:hover {
@@ -67,6 +81,16 @@
   margin: 15px 0 10px 0;
   font-size: 1rem;
   font-weight: 300;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 320px) {
+    font-size: 0.6rem;
+    margin: 5px 0 5px 0;
+  }
 }
 
 .wave {
