@@ -18,6 +18,11 @@ const Footer = () => {
             </a>
           </li>
           <li className="menu__item">
+            <a className="menu__link" href="#GoogleCalendar">
+              Розклад
+            </a>
+          </li>
+          <li className="menu__item">
             <a className="menu__link" href="#TennisBenefits">
               Про теніс
             </a>

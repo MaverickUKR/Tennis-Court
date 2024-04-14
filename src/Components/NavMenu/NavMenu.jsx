@@ -8,6 +8,12 @@ const NavMenu = () => {
   const navItems = [
     { id: "Home", name: "Головна", icon: "fa fa-home", description: "Home" },
     {
+      id: "GoogleCalendar",
+      name: "Розклад",
+      icon: "fa fa-calendar",
+      description: "GoogleCalendar",
+    },
+    {
       id: "TennisBenefits",
       name: "Про теніс",
       icon: "fa fa-heartbeat",
