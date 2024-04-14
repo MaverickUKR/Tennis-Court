@@ -50,6 +50,7 @@ const TennisBenefits = () => {
   return (
     <>
       <div ref={benefitsRef} className="tennisBenefits__container">
+        <h2 className="benefits__container-title">Переваги тенісу</h2>
         <div id="TennisBenefits" className="tennisBenefits">
           <div className="benefits__item">
             <img

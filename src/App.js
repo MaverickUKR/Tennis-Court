@@ -6,6 +6,7 @@ import SectionDivider from "./Components/SectionDivider/SectionDivider";
 import NewGallery from "./Components/NewGallery/NewGallery";
 import NavMenu from "./Components/NavMenu/NavMenu";
 import TennisBenefits from "./Components/TennisBenefits/TennisBenefits";
+import GoogleCalendar from "./Components/GoogleCalendar/GoogleCalendar";
 import Footer from "./Components/Footer/Footer";
 
 const App = () => {
@@ -13,6 +14,8 @@ const App = () => {
     <div className={styles["App"]}>
       <NavMenu />
       <VideoSection />
+      <SectionDivider />
+      <GoogleCalendar />
       <SectionDivider />
       <TennisBenefits />
       <SectionDivider />
