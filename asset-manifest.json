@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tennis-Court/static/css/main.98ca9617.css",
-    "main.js": "/Tennis-Court/static/js/main.81017c56.js",
+    "main.css": "/Tennis-Court/static/css/main.a9142463.css",
+    "main.js": "/Tennis-Court/static/js/main.cb482049.js",
     "static/js/787.28cb0dcd.chunk.js": "/Tennis-Court/static/js/787.28cb0dcd.chunk.js",
     "static/media/presentation720.mp4": "/Tennis-Court/static/media/presentation720.4ef1d7b8d544fd31ae2f.mp4",
     "static/media/court4.jpg": "/Tennis-Court/static/media/court4.1beb1d461c099f64a08e.jpg",
@@ -17,12 +17,12 @@
     "static/media/stamina.png": "/Tennis-Court/static/media/stamina.702a78e167906d95afd8.png",
     "static/media/heartbeat.png": "/Tennis-Court/static/media/heartbeat.7b28b4a0d342b10549d4.png",
     "index.html": "/Tennis-Court/index.html",
-    "main.98ca9617.css.map": "/Tennis-Court/static/css/main.98ca9617.css.map",
-    "main.81017c56.js.map": "/Tennis-Court/static/js/main.81017c56.js.map",
+    "main.a9142463.css.map": "/Tennis-Court/static/css/main.a9142463.css.map",
+    "main.cb482049.js.map": "/Tennis-Court/static/js/main.cb482049.js.map",
     "787.28cb0dcd.chunk.js.map": "/Tennis-Court/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98ca9617.css",
-    "static/js/main.81017c56.js"
+    "static/css/main.a9142463.css",
+    "static/js/main.cb482049.js"
   ]
 }
